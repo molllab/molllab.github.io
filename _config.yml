@@ -129,7 +129,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "Buy me a Coffee"
-      icon: "fab fa-fw fa-coffee"
+      icon: "fab fas fa-coffee"
       url: "https://buymeacoffee.com/molllab"
 
 # Site Footer
