@@ -1,9 +1,6 @@
 ---
 title:  "Portfolio page"
 excerpt: "test123"
-
-categories:
-  - Portfolio
 tags:
   - [Blog, jekyll, Github, Git]
 
