@@ -11,17 +11,17 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "programmer molllab"
+title                    : "Modern Davinci"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "molllab"
-description              : "just do anything"
-url                      : "https://molllab.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Just do it"
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -104,18 +104,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Wonseok Kim"
+  name             : "molllab"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Programmer / Writer / Data-scientist"
+  bio              : "Writer/Programmer/Data Scientist"
   location         : "Seoul Korea"
-  email            : gim.oneseog@gmail.com
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:gim.oneseog@gmail.com"
+      url: "mailto:molllab@kakao.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://blog.naver.com/indday"
+      # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
