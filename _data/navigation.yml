@@ -1,6 +1,10 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
+  - title: About
+    url: https://molllab.github.io/about/
+  - title: Portfolio
+    url: https://molllab.github.io/Portfolio/
+  # - title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
