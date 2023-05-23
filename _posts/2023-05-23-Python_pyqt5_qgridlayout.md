@@ -2,7 +2,7 @@
 title:  "PyQt5 그리드레이아웃 그리드 열 너비 변경하는 코드"
 excerpt: "파이썬 PyQt5 QGridLayout 컬럼 너비를 비율로 조절하는 방법을 알아본다."
 categories:
-  - [Python, PyQt5]
+  - [python-root]
 tags:
   - [Python, PyQt5, 파이썬, GridLayout]
 
@@ -12,7 +12,7 @@ toc_sticky: true
 date: 2023-05-23
 last_modified_at: 2023-05-23
 ---
-# PyQt5 그리드레이아웃 그리드 열 너비 변경하는 코드
+## PyQt5 QGridLayout 열 너비 커스텀
 QGridLayout내에 위젯을 배치하면<br>
 자동으로 위젯 갯수만큼 비율을 조절하여 너비를 결정한다.<br>
 이 비율을 수동으로 조절하는 방법에 대해서 알아본다.<br>
