@@ -1,0 +1,55 @@
+---
+title:  "PyQt5 그리드레이아웃 그리드 열 너비 변경하는 코드"
+excerpt: "파이썬 PyQt5 QGridLayout 컬럼 너비를 비율로 조절하는 방법을 알아본다."
+categories:
+  - [Python, PyQt5]
+tags:
+  - [Python, PyQt5, 파이썬, GridLayout]
+
+toc: true
+toc_sticky: true
+ 
+date: 2023-05-23
+last_modified_at: 2023-05-23
+---
+# PyQt5 그리드레이아웃 그리드 열 너비 변경하는 코드
+QGridLayout내에 위젯을 배치하면<br>
+자동으로 위젯 갯수만큼 비율을 조절하여 너비를 결정한다.<br>
+이 비율을 수동으로 조절하는 방법에 대해서 알아본다.<br>
+<br>
+
+## 코드 구현 절차
+`QGridLayout`을 사용하여 PyQt5에서 그리드의 각 열의 너비 비율을 설정하는 방법은 다음과 같습니다:
+
+1. `QGridLayout` 인스턴스를 생성합니다.
+2. `QGridLayout`에 위젯을 추가합니다. 이때, 각 위젯에 대한 열 번호를 지정합니다.
+3. `setColumnStretch` 메소드를 사용하여 각 열의 너비 비율을 설정합니다.
+
+## 예제 코드
+```python
+from PyQt5.QtWidgets import QApplication, QWidget, QGridLayout, QPushButton
+
+app = QApplication([])
+window = QWidget()
+
+# Create a grid layout
+layout = QGridLayout()
+
+# Add widgets to the grid layout
+layout.addWidget(QPushButton('Button 1'), 0, 0)  # Add a button to row 0, column 0
+layout.addWidget(QPushButton('Button 2'), 0, 1)  # Add a button to row 0, column 1
+
+# Set the stretch factors of each column
+layout.setColumnStretch(0, 1)  # Set the stretch factor of column 0 to 1
+layout.setColumnStretch(1, 3)  # Set the stretch factor of column 1 to 3
+
+# The second column will be three times wider than the first one
+
+# Apply the layout to the window
+window.setLayout(layout)
+
+window.show()
+app.exec_()
+```
+
+이 코드에서 `setColumnStretch` 메소드를 사용하여 첫 번째 열의 너비 비율을 1로, 두 번째 열의 너비 비율을 3으로 설정했습니다. 따라서 두 번째 열은 첫 번째 열보다 세 배 넓게 설정됩니다. 같은 방식으로 행의 높이 비율을 설정하려면 `setRowStretch` 메소드를 사용하면 됩니다.
