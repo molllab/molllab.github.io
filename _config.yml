@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "molllab"
-  avatar           : # "https://cdn.openai.com/labs/images/High%20quality%20photo%20of%20a%20monkey%20astronaut.webp?v=1"
+  avatar           : "https://cdn.openai.com/labs/images/High%20quality%20photo%20of%20a%20monkey%20astronaut.webp?v=1"
   bio              : "Writer<br>Programmer<br>Data Scientist"
   location         : "Seoul Korea"
   email            :
