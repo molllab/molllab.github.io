@@ -30,6 +30,12 @@ feature_row:
   - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: /assets/images/buy-me-a-coffee-toss.png
+    url: "https://toss.me/mahndeune"
+    btn_class: "btn--toss"
+  - image_path: /assets/images/buy-me-a-coffee.png
+    url: "https://buymeacoffee.com/molllab"
+    btn_class: "btn--bmc"
 last_modified_at: 2020-05-01T10:22:56-04:00
 toc: true
 toc_label: "Helpers"
