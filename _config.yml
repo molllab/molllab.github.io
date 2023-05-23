@@ -105,8 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "molllab"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Writer/Programmer/Data Scientist"
+  avatar           : "https://cdn.openai.com/labs/images/High%20quality%20photo%20of%20a%20monkey%20astronaut.webp?v=1"
+  bio              : "Writer<br>Programmer<br>Data Scientist"
   location         : "Seoul Korea"
   email            :
   links:
