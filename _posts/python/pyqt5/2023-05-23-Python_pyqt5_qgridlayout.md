@@ -1,8 +1,8 @@
 ---
 title:  "PyQt5 그리드레이아웃 그리드 열 너비 변경하는 코드"
 excerpt: "파이썬 PyQt5 QGridLayout 컬럼 너비를 비율로 조절하는 방법을 알아본다."
-# categories:
-#   - [python-root]
+categories:
+  - [Post]
 tags:
   - [Python, PyQt5, 파이썬, GridLayout]
 

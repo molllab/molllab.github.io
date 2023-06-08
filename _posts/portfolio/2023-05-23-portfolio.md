@@ -1,8 +1,8 @@
 ---
 title:  "Portfolio 임시 페이지"
 excerpt: "What I did"
-# categories:
-#   - [python-root]
+categories:
+  - [Portfolio]
 tags:
   - []
 
